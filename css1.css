@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+width:100%;
+background-image:url('image1.jpg');
+background-size:cover;
+}
+
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333;
+opacity:0.8;
+position:sticky;
+top:0;
+right:0;
+left:0;
+}
+
+li{
+display:inline;
+float:right;
+}
+
+li a{
+display:block;
+color:white;
+padding:10px 10px;
+text-align:center;
+text-decoration:none;
+}
+
+li a:hover{
+background-color:green;
+}
+
+div1{
+width:100%;
+margin:auto;
+color:black;
+font-family:'Fredericka the Great', cursive;
+display: flex;
+line-height:10%;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+height:600px;
+}
+
+div1 h1{
+font-size:8vw;
+}
+div1 h3{
+font-size:4vw;
+}
+
+@media(max-width:600px)
+{	
+	div1{
+		width:100%;
+		color:black;
+		font-family:'Fredericka the Great', cursive;
+		line-height:400%;
+		height:600px;
+		text-align:center;
+		height:700px;
+		}
+
+
+	div1 h1{
+		font-size:15vw;
+		}
+
+	div1 h3{
+		font-size:6vw;
+		}
+
+	li a{
+	display:block;
+	color:white;
+	padding:10px 10px;
+	text-align:center;
+	text-decoration:none;
+	font-size:6px;
+
+}
+}
+
+
+
+
+
+
+

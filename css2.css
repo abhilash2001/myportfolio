@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body{
+background-color:black;
+background-size:100%;
+width:100%;
+height:700px;
+overflow:hidden;
+}
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:solid black;
+position:sticky;
+top:0;
+right:0;
+left:0;
+}
+li{
+display:inline;
+float:right;
+}
+li a{
+display:block;
+color:white;
+padding:10px 10px;
+text-align:center;
+text-decoration:none;
+}
+li a:hover{
+background-color:green;
+}
+.image{
+  float: left;
+  width: 40%;
+  background: black;
+  padding: 20px;
+  height:100%;
+}
+.image{
+ padding-top:100px;
+}
+.image img{
+display:block;
+margin-left:auto;
+margin-right:auto;
+border-radius:20%;
+width:70%;
+}
+.image img:hover{
+opacity:0.7;
+}
+.article{
+  float: left;
+  width: 60%;
+  background-color: black;
+  height:100%;
+}
+.article p{
+color:white;
+font-family: 'Fredericka the Great', cursive;
+font-size:40px;
+padding:20px;
+}
+
+h1{
+font-size:60px;
+text-align:center;
+color:white;
+font-family: 'Fredericka the Great', cursive;
+}
+
+@media (max-width: 600px) {
+  .image, .article {
+    width: 100%;
+    height: auto;
+    text-align:center;
+    font-size:20px;
+		}
+	h1{
+	font-size:30px;
+	text-align:center;
+	color:white;
+	font-family: 'Fredericka the Great', cursive;
+	}
+
+	.article p{
+	font-size:20px;
+	text-align:center;
+	color:white;
+	font-family: 'Fredericka the Great', cursive;
+	}
+
+	li a{
+	display:block;
+	color:white;
+	padding:10px 10px;
+	text-align:center;
+	text-decoration:none;
+	font-size:6px;
+
+}
+
+}
+
+section :after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
