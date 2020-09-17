@@ -8,12 +8,13 @@ background-size:cover;
 
 ul{
 list-style-type:none;
-display:flex;
 overflow:hidden;
-justify-content: flex-end;
+float:right;
+display:inline;
 margin:0;
 padding:0;
 overflow:hidden;
+width:100%;
 background-color:#333;
 opacity:0.8;
 position:sticky;
@@ -21,13 +22,15 @@ top:0;
 right:0;
 left:0;
 }
-
+li{
+	display:inline;
+	float:right;
+}
 
 
 li a{
 display:block;
 color:white;
-width:(100/6)%;
 padding : 10px 10px;
 text-align:center;
 text-decoration:none;
